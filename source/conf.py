@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'paper-digest'
-html_title = 'Paper Digest'
+html_title = 'Note LLM'
 copyright = '2024, Hsiang-Jen Li'
 author = 'Hsiang-Jen Li'
 html_favicon = 'https://hsiangjenli.github.io/static/image/ico.svg'
@@ -34,7 +34,7 @@ class TitleRefRole(SphinxRole):
 
 extensions = ['sphinxcontrib.bibtex', 'sphinx_add_text']
 bibtex_bibfiles = ['paper.bib']
-bibtex_default_style = 'unsrt'
+bibtex_default_style = 'plain'
 
 templates_path = ['_templates']
 exclude_patterns = []

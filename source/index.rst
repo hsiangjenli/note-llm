@@ -3,12 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Paper Digest
+Note LLM
 ============
+
+
+.. toctree::
+   :glob:
+   :caption: LLM
+   :maxdepth: 1
+
+   llm/*
+   
+.. toctree::
+   :glob:
+   :caption: Ollama
+   :maxdepth: 1
+
+   ollama/*
 
 .. toctree:: 
    :glob:
-   :caption: Table of Contents:
+   :caption: Paper Reading
    :maxdepth: 1
 
    paper/*
