@@ -50,3 +50,9 @@ Paper
       #. Single answer grading
 
       #. Reference-guided grading
+
+
+Reference
+---------
+.. bibliography::
+   :filter: docname in docnames

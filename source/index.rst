@@ -21,10 +21,3 @@ Note LLM
    :maxdepth: 1
 
    ollama/*
-
-.. toctree:: 
-   :glob:
-   :caption: Paper Reading
-   :maxdepth: 1
-
-   paper/*

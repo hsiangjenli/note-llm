@@ -46,3 +46,7 @@ Available Models
 
 - 評測方法程式碼 - https://github.com/taide-taiwan/taide-bench-eval
 
+Reference
+---------
+.. bibliography::
+   :filter: docname in docnames

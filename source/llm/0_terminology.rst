@@ -18,3 +18,8 @@ Terminology for LLM
 #. Verbosity Bias 
 #. Self-Enhancement Bias 
 #. Limited Reasoning Ability 
+
+Reference
+---------
+.. bibliography::
+   :filter: docname in docnames
