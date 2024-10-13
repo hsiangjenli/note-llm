@@ -33,7 +33,7 @@ class TitleRefRole(SphinxRole):
         return [node], []
 
 extensions = ['sphinxcontrib.bibtex', 'sphinx_add_text']
-bibtex_bibfiles = ['paper.bib']
+bibtex_bibfiles = ['paper.bib', 'web.bib']
 bibtex_default_style = 'plain'
 
 templates_path = ['_templates']
