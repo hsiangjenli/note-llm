@@ -13,6 +13,7 @@ Note LLM
    :maxdepth: 1
 
    llm/*
+   dspy/*
    
 .. toctree::
    :glob:

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>A Curated List of LLM Models for Taiwanese Users &#8212; Note LLM</title>
+    <title>DSPy: Programming—not prompting—Foundation Models &#8212; Note LLM</title>
   
   
   
@@ -41,12 +41,12 @@
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'llm/01_tw_llm';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'dspy/0_intro';</script>
     <link rel="icon" href="https://hsiangjenli.github.io/static/image/ico.svg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="What is LLM?" href="0_intro.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="01_all_llm.html" />
+    <link rel="next" title="Introduction to Ollama" href="../ollama/0_intro.html" />
+    <link rel="prev" title="Benchmark for evaluating the performance of the LLM model" href="../llm/2_benchmark.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -152,11 +152,11 @@
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">LLM</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">A Curated List of LLM Models for Taiwanese Users</a></li>
-<li class="toctree-l1"><a class="reference internal" href="0_intro.html">What is LLM?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="0_terminology.html">Terminology for LLM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2_benchmark.html">Benchmark for evaluating the performance of the LLM model</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../dspy/0_intro.html">DSPy: Programming—not prompting—Foundation Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../llm/01_tw_llm.html">A Curated List of LLM Models for Taiwanese Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../llm/0_intro.html">What is LLM?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../llm/0_terminology.html">Terminology for LLM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../llm/2_benchmark.html">Benchmark for evaluating the performance of the LLM model</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">DSPy: Programming—not prompting—Foundation Models</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Ollama</span></p>
 <ul class="nav bd-sidenav">
@@ -215,7 +215,7 @@
       
       
       
-      <li><a href="../_sources/llm/01_tw_llm.rst" target="_blank"
+      <li><a href="../_sources/dspy/0_intro.rst" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -299,7 +299,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>A Curated List of LLM Models for Taiwanese Users</h1>
+    <h1>DSPy: Programming—not prompting—Foundation Models</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -309,10 +309,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trustworthy-ai-dialogue-engine-taide">Trustworthy AI Dialogue Engine, TAIDE</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#available-models">Available Models</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributions">Contributions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-dspy-dspydocsusingdspy">How to use DSPy <span class="xref cite">dspydocsUsingDSPy</span></a></li>
 </ul>
             </nav>
         </div>
@@ -324,55 +322,39 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="a-curated-list-of-llm-models-for-taiwanese-users">
-<h1>A Curated List of LLM Models for Taiwanese Users<a class="headerlink" href="#a-curated-list-of-llm-models-for-taiwanese-users" title="Link to this heading">#</a></h1>
+  <section id="dspy-programmingnot-promptingfoundation-models">
+<h1>DSPy: Programming—not prompting—Foundation Models<a class="headerlink" href="#dspy-programmingnot-promptingfoundation-models" title="Link to this heading">#</a></h1>
 <div class="admonition note">
     <p class="admonition-title">Note</p>
     <p>Hey guys, this is my personal reading note. I am not sure there might be some mistakes in my understanding. Please feel free to correct me (<a class="reference external" href="mailto:hsiangjenli&#37;&#52;&#48;gmail&#46;com">hsiangjenli<span>&#64;</span>gmail<span>&#46;</span>com</a>) if you find any. Thanks!</p>
-</div><ol class="arabic simple">
-<li><p>Llama-3-Taiwan
-- <a class="reference external" href="https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07">https://huggingface.co/collections/yentinglin/taiwan-llm-6523f5a2d6ca498dc3810f07</a></p></li>
-<li><p>Llama3-TAIDE
-- <a class="reference external" href="https://huggingface.co/taide/Llama3-TAIDE-LX-8B-Chat-Alpha1">https://huggingface.co/taide/Llama3-TAIDE-LX-8B-Chat-Alpha1</a></p></li>
-</ol>
-<section id="trustworthy-ai-dialogue-engine-taide">
-<h2>Trustworthy AI Dialogue Engine, TAIDE<a class="headerlink" href="#trustworthy-ai-dialogue-engine-taide" title="Link to this heading">#</a></h2>
+</div><p>Full name of DSPy is DSPy “Declarative Self-improving Language Programs (in Python)”</p>
+<p>Developed by Stanford NLP</p>
 <ul class="simple">
-<li><p>可信任生成式 AI 對話引擎</p>
-<ul>
-<li><p>背後緣由</p>
-<ul>
-<li><p>大部分的中文資料集都是簡體中文，導致模型回應出的內容跟臺灣習慣的用法不同</p></li>
-<li><p>因此，希望確保台灣「數位主權」的議題，從 112 年開始此專案進行</p></li>
-<li><p>資料集來源大多是法規資料庫、字典，可參考 <a class="reference external" href="https://taide.tw/index/training-data">https://taide.tw/index/training-data</a></p></li>
+<li><p><span id="id1">[]</span></p></li>
+<li><p><span id="id2">[]</span></p></li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>國家實驗研究院</p>
+<section id="contributions">
+<h2>Contributions<a class="headerlink" href="#contributions" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
-<li><p>中翻英</p></li>
-<li><p>英翻中</p></li>
-<li><p>自動摘要</p></li>
-<li><p>寫信、文章</p></li>
+<li><p>separate program from parameters</p></li>
+<li><p>new optimizer, which is LM-driven and can be used to optimize prompt and weights</p></li>
 </ol>
-<section id="available-models">
-<h3>Available Models<a class="headerlink" href="#available-models" title="Link to this heading">#</a></h3>
-<ol class="arabic simple">
-<li><p>[Llama2/可商用] taide/TAIDE-LX-7B</p></li>
-<li><p>[Llama2/可商用] taide/TAIDE-LX-7B-Chat</p></li>
-<li><p>[Llama2/可商用] taide/TAIDE-LX-7B-Chat-4bit</p></li>
-<li><p>taide/Llama3-TAIDE-LX-8B-Chat-Alpha1</p></li>
-<li><p>taide/Llama3-TAIDE-LX-8B-Chat-Alpha1-4bit</p></li>
-<li><p>LX-13B (學研用版本)模型</p></li>
-</ol>
-<ul class="simple">
-<li><p>訓練用的資料集 - <a class="reference external" href="https://taide.tw/index/training-data">https://taide.tw/index/training-data</a></p></li>
-<li><p>評測資料連結 - <a class="reference external" href="https://huggingface.co/datasets/taide/taide-bench">https://huggingface.co/datasets/taide/taide-bench</a></p></li>
-<li><p>評測方法程式碼 - <a class="github reference external" href="https://github.com/taide-taiwan/taide-bench-eval">taide-taiwan/taide-bench-eval</a></p></li>
-</ul>
+<p><span id="id3">[]</span></p>
+<p>LLMs are sensitive to how they are prompted <span id="id4">[]</span></p>
+<p>Key concept is “programming with foundation models” <span id="id5">[]</span></p>
 </section>
+<section id="how-to-use-dspy-dspydocsusingdspy">
+<h2>How to use DSPy <span id="id6">[]</span><a class="headerlink" href="#how-to-use-dspy-dspydocsusingdspy" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Define your task</p></li>
+<li><p>Define your pipeline</p></li>
+<li><p>Explore a few examples (Simply run the code and see the results)</p></li>
+<li><p>Define data</p></li>
+<li><p>Define metric</p></li>
+<li><p>Collect data</p></li>
+<li><p>Set up the optimizer</p></li>
+<li><p>Train</p></li>
+</ol>
 </section>
 </section>
 
@@ -388,20 +370,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="01_all_llm.html"
+       href="../llm/2_benchmark.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">Benchmark for evaluating the performance of the LLM model</p>
       </div>
     </a>
     <a class="right-next"
-       href="0_intro.html"
+       href="../ollama/0_intro.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">What is LLM?</p>
+        <p class="prev-next-title">Introduction to Ollama</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -421,10 +403,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trustworthy-ai-dialogue-engine-taide">Trustworthy AI Dialogue Engine, TAIDE</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#available-models">Available Models</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributions">Contributions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-dspy-dspydocsusingdspy">How to use DSPy <span class="xref cite">dspydocsUsingDSPy</span></a></li>
 </ul>
   </nav></div>
 
