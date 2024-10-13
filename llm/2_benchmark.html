@@ -152,6 +152,7 @@
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">LLM</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="01_all_llm.html">A Curated List of LLM Models available from Hugging Face</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01_tw_llm.html">A Curated List of LLM Models for Taiwanese Users</a></li>
 <li class="toctree-l1"><a class="reference internal" href="0_intro.html">What is LLM?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="0_terminology.html">Terminology for LLM</a></li>
@@ -311,6 +312,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-benchmark">Open Source Benchmark</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#paper">Paper</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference">Reference</a></li>
 </ul>
             </nav>
         </div>
@@ -327,14 +329,14 @@ document.write(`
 <div class="admonition note">
     <p class="admonition-title">Note</p>
     <p>Hey guys, this is my personal reading note. I am not sure there might be some mistakes in my understanding. Please feel free to correct me (<a class="reference external" href="mailto:hsiangjenli&#37;&#52;&#48;gmail&#46;com">hsiangjenli<span>&#64;</span>gmail<span>&#46;</span>com</a>) if you find any. Thanks!</p>
-</div><p>Existing benchmarks can be divided into n categories <span id="id1">[]</span> :</p>
+</div><p>Existing benchmarks can be divided into n categories <span id="id1">[<a class="reference internal" href="#id20" title="Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, and others. Judging llm-as-a-judge with mt-bench and chatbot arena. Advances in Neural Information Processing Systems, 36:46595–46623, 2023.">5</a>]</span> :</p>
 <ol class="arabic simple">
 <li><p>Core-knowledge benchmarks</p></li>
 <li><p>Instruction-following benchmarks</p></li>
 <li><p>Conversational benchmarks</p></li>
 <li><p>Traditional evaluation metrics</p>
 <ul class="simple">
-<li><p>ROUGE <span id="id2">[]</span> (<span id="id3"></span>), BLEU <span id="id4">[]</span> (<span id="id5"></span>)</p></li>
+<li><p>ROUGE <span id="id2">[<a class="reference internal" href="#id23" title="Chin-Yew Lin. Rouge: a package for automatic evaluation of summaries. In Text summarization branches out, 74–81. 2004.">3</a>]</span> (<span id="id3"><a class="reference internal" href="#id23" title="Chin-Yew Lin. Rouge: a package for automatic evaluation of summaries. In Text summarization branches out, 74–81. 2004.">2004</a></span>), BLEU <span id="id4">[<a class="reference internal" href="#id24" title="Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. Bleu: a method for automatic evaluation of machine translation. In Proceedings of the 40th annual meeting of the Association for Computational Linguistics, 311–318. 2002.">4</a>]</span> (<span id="id5"><a class="reference internal" href="#id24" title="Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. Bleu: a method for automatic evaluation of machine translation. In Proceedings of the 40th annual meeting of the Association for Computational Linguistics, 311–318. 2002.">2002</a></span>)</p></li>
 </ul>
 </li>
 </ol>
@@ -351,16 +353,16 @@ document.write(`
 <li><p><a class="github reference external" href="https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge">lm-sys/FastChat</a></p></li>
 </ul>
 </li>
-<li><p>MMLU <span id="id6">[]</span></p></li>
-<li><p>HELM <span id="id7">[]</span></p></li>
-<li><p>MT-bench <span id="id8">[]</span></p></li>
-<li><p>Chatbot Arena <span id="id9">[]</span></p></li>
+<li><p>MMLU <span id="id6">[<a class="reference internal" href="#id21" title="Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. Measuring massive multitask language understanding. arXiv preprint arXiv:2009.03300, 2020.">1</a>]</span></p></li>
+<li><p>HELM <span id="id7">[<a class="reference internal" href="#id22" title="Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, and others. Holistic evaluation of language models. arXiv preprint arXiv:2211.09110, 2022.">2</a>]</span></p></li>
+<li><p>MT-bench <span id="id8">[<a class="reference internal" href="#id20" title="Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, and others. Judging llm-as-a-judge with mt-bench and chatbot arena. Advances in Neural Information Processing Systems, 36:46595–46623, 2023.">5</a>]</span></p></li>
+<li><p>Chatbot Arena <span id="id9">[<a class="reference internal" href="#id20" title="Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, and others. Judging llm-as-a-judge with mt-bench and chatbot arena. Advances in Neural Information Processing Systems, 36:46595–46623, 2023.">5</a>]</span></p></li>
 </ol>
 </section>
 <section id="paper">
 <h2>Paper<a class="headerlink" href="#paper" title="Link to this heading">#</a></h2>
 <ol class="arabic">
-<li><p><span id="id10"></span> Judging llm-as-a-judge with mt-bench and chatbot arena</p>
+<li><p><span id="id10"><a class="reference internal" href="#id20" title="Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, and others. Judging llm-as-a-judge with mt-bench and chatbot arena. Advances in Neural Information Processing Systems, 36:46595–46623, 2023.">2023</a></span> Judging llm-as-a-judge with mt-bench and chatbot arena</p>
 <ul>
 <li><p>In this paper, the authors argue that the aligned model achieves better user preference, but the results cannot be accurately assessed by current benchmarks.</p></li>
 <li><p>LLM-as-a-Judge</p>
@@ -381,6 +383,36 @@ document.write(`
 </ul>
 </li>
 </ol>
+</section>
+<section id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Link to this heading">#</a></h2>
+<div class="docutils container" id="id11">
+<div role="list" class="citation-list">
+<div class="citation" id="id21" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">1</a><span class="fn-bracket">]</span></span>
+<p>Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. Measuring massive multitask language understanding. <em>arXiv preprint arXiv:2009.03300</em>, 2020.</p>
+</div>
+<div class="citation" id="id22" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">2</a><span class="fn-bracket">]</span></span>
+<p>Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, and others. Holistic evaluation of language models. <em>arXiv preprint arXiv:2211.09110</em>, 2022.</p>
+</div>
+<div class="citation" id="id23" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id2">1</a>,<a role="doc-backlink" href="#id3">2</a>)</span>
+<p>Chin-Yew Lin. Rouge: a package for automatic evaluation of summaries. In <em>Text summarization branches out</em>, 74–81. 2004.</p>
+</div>
+<div class="citation" id="id24" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id4">1</a>,<a role="doc-backlink" href="#id5">2</a>)</span>
+<p>Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. Bleu: a method for automatic evaluation of machine translation. In <em>Proceedings of the 40th annual meeting of the Association for Computational Linguistics</em>, 311–318. 2002.</p>
+</div>
+<div class="citation" id="id20" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id8">2</a>,<a role="doc-backlink" href="#id9">3</a>,<a role="doc-backlink" href="#id10">4</a>)</span>
+<p>Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, and others. Judging llm-as-a-judge with mt-bench and chatbot arena. <em>Advances in Neural Information Processing Systems</em>, 36:46595–46623, 2023.</p>
+</div>
+</div>
+</div>
 </section>
 </section>
 
@@ -431,6 +463,7 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-benchmark">Open Source Benchmark</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#paper">Paper</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference">Reference</a></li>
 </ul>
   </nav></div>
 

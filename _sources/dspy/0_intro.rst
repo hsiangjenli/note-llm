@@ -5,21 +5,17 @@ Full name of DSPy is DSPy "Declarative Self-improving Language Programs (in Pyth
 
 Developed by Stanford NLP
 
-- :cite:`khattab2023dspy`
-- :cite:`khattab2022demonstrate`
+- :title-ref:`khattab2023dspy` :cite:`khattab2023dspy`
+- :title-ref:`khattab2022demonstrate` :cite:`khattab2022demonstrate`
 
 Contributions
 -------------
 #. separate program from parameters
 #. new optimizer, which is LM-driven and can be used to optimize prompt and weights
 
+.. LLMs are sensitive to how they are prompted :cite:`towardsdatascienceIntroDSPy`
 
-:cite:`medium_bc_dspy`
-
-LLMs are sensitive to how they are prompted :cite:`towardsdatascienceIntroDSPy`
-
-Key concept is "programming with foundation models" :cite:`towardsdatascienceIntroDSPy`
-
+.. Key concept is "programming with foundation models" :cite:`towardsdatascienceIntroDSPy`
 
 How to use DSPy :cite:`dspydocsUsingDSPy`
 -----------------------------------------
@@ -32,3 +28,9 @@ How to use DSPy :cite:`dspydocsUsingDSPy`
 #. Collect data
 #. Set up the optimizer
 #. Train
+
+
+Reference
+---------
+.. bibliography::
+   :filter: docname in docnames

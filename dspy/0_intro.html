@@ -152,6 +152,7 @@
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">LLM</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../llm/01_all_llm.html">A Curated List of LLM Models available from Hugging Face</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../llm/01_tw_llm.html">A Curated List of LLM Models for Taiwanese Users</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../llm/0_intro.html">What is LLM?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../llm/0_terminology.html">Terminology for LLM</a></li>
@@ -311,6 +312,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributions">Contributions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-dspy-dspydocsusingdspy">How to use DSPy <span class="xref cite">dspydocsUsingDSPy</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference">Reference</a></li>
 </ul>
             </nav>
         </div>
@@ -330,8 +332,8 @@ document.write(`
 </div><p>Full name of DSPy is DSPy “Declarative Self-improving Language Programs (in Python)”</p>
 <p>Developed by Stanford NLP</p>
 <ul class="simple">
-<li><p><span id="id1">[]</span></p></li>
-<li><p><span id="id2">[]</span></p></li>
+<li><p>DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines <span id="id1">[<a class="reference internal" href="#id18" title="Omar Khattab, Arnav Singhvi, Paridhi Maheshwari, Zhiyuan Zhang, Keshav Santhanam, Sri Vardhamanan, Saiful Haq, Ashutosh Sharma, Thomas T. Joshi, Hanna Moazam, Heather Miller, Matei Zaharia, and Christopher Potts. Dspy: compiling declarative language model calls into self-improving pipelines. arXiv preprint arXiv:2310.03714, 2023.">3</a>]</span></p></li>
+<li><p>Demonstrate-Search-Predict: Composing Retrieval and Language Models for Knowledge-Intensive {NLP} <span id="id2">[<a class="reference internal" href="#id19" title="Omar Khattab, Keshav Santhanam, Xiang Lisa Li, David Hall, Percy Liang, Christopher Potts, and Matei Zaharia. Demonstrate-search-predict: composing retrieval and language models for knowledge-intensive NLP. arXiv preprint arXiv:2212.14024, 2022.">2</a>]</span></p></li>
 </ul>
 <section id="contributions">
 <h2>Contributions<a class="headerlink" href="#contributions" title="Link to this heading">#</a></h2>
@@ -339,12 +341,9 @@ document.write(`
 <li><p>separate program from parameters</p></li>
 <li><p>new optimizer, which is LM-driven and can be used to optimize prompt and weights</p></li>
 </ol>
-<p><span id="id3">[]</span></p>
-<p>LLMs are sensitive to how they are prompted <span id="id4">[]</span></p>
-<p>Key concept is “programming with foundation models” <span id="id5">[]</span></p>
 </section>
 <section id="how-to-use-dspy-dspydocsusingdspy">
-<h2>How to use DSPy <span id="id6">[]</span><a class="headerlink" href="#how-to-use-dspy-dspydocsusingdspy" title="Link to this heading">#</a></h2>
+<h2>How to use DSPy <span id="id3">[<a class="reference internal" href="#id22" title="Using DSPy in 8 Steps | DSPy — dspy-docs.vercel.app. https://dspy-docs.vercel.app/docs/building-blocks/solving_your_task. [Accessed 13-10-2024].">1</a>]</span><a class="headerlink" href="#how-to-use-dspy-dspydocsusingdspy" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Define your task</p></li>
 <li><p>Define your pipeline</p></li>
@@ -355,6 +354,25 @@ document.write(`
 <li><p>Set up the optimizer</p></li>
 <li><p>Train</p></li>
 </ol>
+</section>
+<section id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Link to this heading">#</a></h2>
+<div class="docutils container" id="id4">
+<div role="list" class="citation-list">
+<div class="citation" id="id22" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">1</a><span class="fn-bracket">]</span></span>
+<p>Using DSPy in 8 Steps | DSPy — dspy-docs.vercel.app. <a class="reference external" href="https://dspy-docs.vercel.app/docs/building-blocks/solving_your_task">https://dspy-docs.vercel.app/docs/building-blocks/solving_your_task</a>. [Accessed 13-10-2024].</p>
+</div>
+<div class="citation" id="id19" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p>Omar Khattab, Keshav Santhanam, Xiang Lisa Li, David Hall, Percy Liang, Christopher Potts, and Matei Zaharia. Demonstrate-search-predict: composing retrieval and language models for knowledge-intensive NLP. <em>arXiv preprint arXiv:2212.14024</em>, 2022.</p>
+</div>
+<div class="citation" id="id18" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">3</a><span class="fn-bracket">]</span></span>
+<p>Omar Khattab, Arnav Singhvi, Paridhi Maheshwari, Zhiyuan Zhang, Keshav Santhanam, Sri Vardhamanan, Saiful Haq, Ashutosh Sharma, Thomas T. Joshi, Hanna Moazam, Heather Miller, Matei Zaharia, and Christopher Potts. Dspy: compiling declarative language model calls into self-improving pipelines. <em>arXiv preprint arXiv:2310.03714</em>, 2023.</p>
+</div>
+</div>
+</div>
 </section>
 </section>
 
@@ -405,6 +423,7 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributions">Contributions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-dspy-dspydocsusingdspy">How to use DSPy <span class="xref cite">dspydocsUsingDSPy</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference">Reference</a></li>
 </ul>
   </nav></div>
 
