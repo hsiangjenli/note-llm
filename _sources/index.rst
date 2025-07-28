@@ -12,12 +12,4 @@ Note LLM
    :caption: LLM
    :maxdepth: 1
 
-   llm/*
-   dspy/*
-   
-.. toctree::
-   :glob:
-   :caption: Ollama
-   :maxdepth: 1
-
-   ollama/*
+   docs/*
